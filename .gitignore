@@ -1,31 +1,53 @@
 # IDE
 .idea/
 .vscode/
- 
+*.iml
+
 # Java
 target/
- 
+out/
+.gradle/
+
 # Logs
 logs/
 *.log
- 
+
 # Environment
 .env
 .env.*
- 
+!.env.example
+
 # Secrets
 secrets/
 credentials/
- 
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+
 # Browser Profiles
 profiles/
 sessions/
 playwright-data/
 cookies/
- 
+
+# Ollama / AI
+models/
+prompts/private/
+
 # Database
 *.db
- 
+*.sqlite
+*.sqlite3
+
+# Coverage & Reports
+coverage/
+jacoco/
+surefire-reports/
+
 # OS
 .DS_Store
 Thumbs.db
+
+# Temporary
