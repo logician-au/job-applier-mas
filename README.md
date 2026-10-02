@@ -47,7 +47,7 @@ Coordinates workflow between specialised agents.
 
 ## Technology Stack
 
-- Java 21
+- Java 25
 - Spring Boot
 - Spring AI
 - PostgreSQL
